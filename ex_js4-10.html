@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex Javascript4</title>
+</head>
+<script>
+    function writeText(txt) {
+        document.getElementById("desc").innerHTML = txt;
+    }
+</script>
+
+<body>
+    <img src="/images/Best Player.jpg" alt="" usemap="#bestplayer">
+    <map name="bestplayer">
+
+        <area shape ="rect" coords ="0,0,170,400"
+            onmouseover="writeText('Gianluigi Buffon (Italian: Gianluigi Buffon; born 28 January 1978) is an Italian former footballer. Currently plays as a goalkeeper for Parma in Serie B.')"
+            href ="https://en.wikipedia.org/wiki/Gianluigi_Buffon" target ="_blank" alt="Sun" />
+
+        <area shape="rect" coords="170,0,340,400"
+            onmouseover="writeText('Full name	Sergio Ramos García[1]Date of birth	30 March 1986 (age 37)[1]Place of birth	Camas, Spain Height	1.84 m (6 ft 0 in)[2]Position(s)	Defender.')"
+            href="https://en.wikipedia.org/wiki/Sergio_Ramos" alt="Ramos">
+
+        <area shape="rect" coords="340,0,500,400"
+            onmouseover="writeText('Full name	Lionel Andrés Messi[1]Date of birth	24 June 1987 (age 36)[1]Place of birth	Rosario, Santa Fe, ArgentinaHeight	1.70 m (5 ft 7 in)[1]Position(s)	Forward, attacking midfielder')"
+            href="https://en.wikipedia.org/wiki/Lionel_Messi" alt="Lionel Messi">
+
+        <area shape="rect" coords="500,0,670,400"
+            onmouseover="writeText('Full name	Cristiano Ronaldo dos Santos Aveiro[1]Date of birth	5 February 1985 (age 38)[1]Place of birth	Funchal, Madeira, Portugal[1]Height	1.87 m (6 ft 2 in)[note 1]Position(s)	Forward')"
+            href="https://en.wikipedia.org/wiki/Cristiano_Ronaldo" alt="Cristiano Ronaldo">
+        
+    </map>
+    <p id="desc">Mouse over the sun and the planets and see the different descriptions.</p>
+</body>
+
+</html>

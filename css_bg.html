@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Background</title>
+    <style>
+     table{
+        background-color: aqua;
+        color: aliceblue;
+     }
+     tr{
+      background-color:green; 
+     }
+     .t1{
+        background-color: rgba(255, 0, 34, 0.443);
+        color: aliceblue;
+     }
+     #t2{
+        background-color: rgb(0, 255, 34);
+        color: aliceblue;
+     }
+     body{
+        background-color: darkkhaki;
+        background-image: url( 'images/user3.jpg' );
+       /* background-repeat: repeat; */
+        background-repeat: no-repeat;
+       /* background-repeat: repeat-x; 
+        background-repeat: repeat-y;  */
+        background-position: top center;
+       /* top left bottom right  middle  center     */ 
+       background-attachment: fixed;
+     }
+     
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>1111111111</td>
+            <td>2222222222</td>
+            <td>3333333333</td>
+        </tr>
+        <tr>
+            <td>4444444444</td>
+            <td>5555555555</td>
+            <td>6666666666</td>
+        </tr>
+        <tr>
+            <td>777777</td>
+            <td>888888</td>
+            <td>999999</td>
+        </tr>
+    </table>
+    <table class="t1">
+        <tr>
+            <td>AAAAAAAAAA</td>
+            <td>BBBBBBBBBB</td>
+        </tr>
+        <tr>
+            <td>CCCCCCCCCCC</td>
+            <td>DDDDDDDDDD</td>
+        </tr>
+    </table>
+</table>
+<table id="t2">
+    <tr>
+        <td>AAAAAAAAAA</td>
+        <td>BBBBBBBBBB</td>
+    </tr>
+    <tr>
+        <td>CCCCCCCCCC</td>
+        <td>DDDDDDDDDD</td>
+    </tr>
+</table>
+
+</body>
+</html>
